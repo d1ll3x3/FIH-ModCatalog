@@ -364,6 +364,23 @@
       }
     },
     {
+      "repo": "fabuleo8796/FIHSync",
+      "title": "FIH Sync",
+      "author": "Fabuleo8796",
+      "category": "multiplayer",
+      "icon": "link",
+      "description": {
+        "en": "Modded players see each other's auras, body accessories, custom capes and stickers, over Steam peer-to-peer (F9 for Mod sharing).",
+        "es": "Los jugadores con mods ven las auras, accesorios, capas y stickers personalizados de los demás, por Steam peer-to-peer (F9 para Mod sharing).",
+        "fr": "Les joueurs moddés voient les auras, accessoires, capes et stickers personnalisés des autres, via Steam en pair-à-pair (F9 pour Mod sharing).",
+        "ru": "Игроки с модами видят ауры, аксессуары, плащи и стикеры друг друга через Steam P2P (F9 — Mod sharing).",
+        "pl": "Gracze z modami widzą nawzajem swoje aury, akcesoria, peleryny i naklejki, przez Steam peer-to-peer (F9 otwiera Mod sharing).",
+        "ar": "يرى اللاعبون الذين يستخدمون المودات هالات وإكسسوارات وعباءات وملصقات بعضهم البعض عبر Steam من نظير إلى نظير (F9 لـ Mod sharing).",
+        "zh": "装了模组的玩家可以互相看到彼此的光环、身体配饰、自定义披风和贴纸，通过 Steam 点对点传输（F9 打开 Mod sharing）。",
+        "ko": "모드를 쓰는 플레이어끼리 서로의 오라, 바디 액세서리, 커스텀 망토와 스티커를 Steam P2P로 볼 수 있습니다 (F9로 Mod sharing 열기)."
+      }
+    },
+    {
       "repo": "d1ll3x3/FIH_MapEditor",
       "title": "Map Editor",
       "author": "Topper",
