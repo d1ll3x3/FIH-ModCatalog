@@ -398,6 +398,23 @@
       }
     },
     {
+      "repo": "fabuleo8796/FIHBlenderPack",
+      "title": "FIH Blender Pack",
+      "author": "Fabuleo8796",
+      "category": "creation",
+      "icon": "person",
+      "description": {
+        "en": "A rigged Flippy for Blender 4.0+ with every skin, face, hat and cape from your own game, and cloth physics. Ships no game files: it copies them from your game.",
+        "es": "Un Flippy con rig para Blender 4.0+ con todas las skins, caras, sombreros y capas de tu propio juego, y física de tela. No incluye archivos del juego: los copia de tu juego.",
+        "fr": "Un Flippy riggé pour Blender 4.0+ avec tous les skins, visages, chapeaux et capes de votre propre jeu, et une physique de tissu. Aucun fichier du jeu inclus : il les copie depuis votre jeu.",
+        "ru": "Риггованный Флиппи для Blender 4.0+ со всеми скинами, лицами, шляпами и плащами из вашей игры и физикой ткани. Файлов игры внутри нет: мод копирует их из вашей игры.",
+        "pl": "Zriggowany Flippy do Blendera 4.0+ ze wszystkimi skórkami, twarzami, czapkami i pelerynami z twojej gry oraz fizyką tkanin. Bez plików gry: kopiuje je z twojej gry.",
+        "ar": "فليبي مجهّز بهيكل تحريك لـ Blender 4.0+ مع كل الأشكال والوجوه والقبعات والعباءات من لعبتك، مع فيزياء القماش. لا يحتوي على ملفات اللعبة: ينسخها من لعبتك.",
+        "zh": "适用于 Blender 4.0+ 的带骨骼 Flippy，包含你游戏里的所有皮肤、表情、帽子和披风，还有布料物理。不附带任何游戏文件：直接从你的游戏中复制。",
+        "ko": "Blender 4.0+용 리깅된 플리피. 내 게임의 모든 스킨, 얼굴, 모자, 망토와 천 물리를 포함합니다. 게임 파일은 들어 있지 않고 내 게임에서 복사해 옵니다."
+      }
+    },
+    {
       "repo": "PlixtzlBit/FlippingSpeedrunTools",
       "title": "Speedrun Tools",
       "author": "PlixtzlBit",
