@@ -37,14 +37,14 @@ repository on startup, so a mod added here shows up for everyone without a new v
 | `icon` | yes | `edit`, `timer`, `palette`, `flight`, `person`, `bolt`, `link`, `visibility`, `translate`, `camera`, `chat`, `image`, `lock`, `videocam`, `brush`, `sparkle`, `brightness`, `hook`, `hanger` or `tag` |
 | `description` | yes | Text per language: `en` (required), `es`, `fr`, `ru`, `pl`, `ar`, `zh`, `ko`. Missing languages show the English text |
 | `explore` | no | `false` hides the mod from Explore (only for mods listed in the Speedrun tab) |
-| `speedrun` | no | `{"allowed": true}` or `{"allowed": false}`, with an optional `note` per language. Only speedrun moderators can add or change it |
+| `speedrun` | no | `{"allowed": true}` or `{"allowed": false}`, with an optional `note` per language. `"tool": true` also lists it under Speedrun mods. Only speedrun moderators can add or change it |
 
 New categories or icons need a new version of the manager first: open an issue in the manager's repository.
 
 ## Speedrun rules
 
-The Speedrun tab splits mods into allowed and not allowed in runs submitted to
-[speedrun.com](https://www.speedrun.com/Flipping_Is_Hard). Only the users in
+The Speedrun tab has two lists: Speedrun mods (the ones with `"tool": true`, tools made for speedrunning) and the
+mods allowed in runs submitted to [speedrun.com](https://www.speedrun.com/Flipping_Is_Hard). Only the users in
 `.github/speedrun-moderators.txt` can add or change the `speedrun` field; the check fails if anyone else
 does.
 
