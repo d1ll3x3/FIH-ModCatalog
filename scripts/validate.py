@@ -75,10 +75,12 @@ def check_mod(index, mod):
     rule = mod.get("speedrun")
     if rule is not None:
         if not isinstance(rule, dict) or not isinstance(rule.get("allowed"), bool):
-            error(f"{where}.speedrun", "must be {\"allowed\": true|false} with an optional \"note\"")
+            error(f"{where}.speedrun", "must be {\"allowed\": true|false} with an optional \"tool\" and \"note\"")
         else:
-            for key in rule.keys() - {"allowed", "note"}:
+            for key in rule.keys() - {"allowed", "tool", "note"}:
                 error(f"{where}.speedrun", f"unknown field \"{key}\"")
+            if "tool" in rule and not isinstance(rule["tool"], bool):
+                error(f"{where}.speedrun", "\"tool\" must be true or false")
             if "note" in rule:
                 check_localized(f"{where}.speedrun.note", rule["note"])
     if mod.get("explore") is False and rule is None:
