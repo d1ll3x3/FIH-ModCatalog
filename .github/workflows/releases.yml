@@ -1,0 +1,41 @@
+# Genera releases.json (la última release de cada mod) y lo publica en la rama data, de donde lo lee el manager.
+# Se ejecuta cada 30 minutos, al cambiar mods.json en main y a mano desde la pestaña Actions.
+name: Releases
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  push:
+    branches: [main]
+    paths: [mods.json, scripts/build_releases.py]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: releases
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with:
+          ref: data
+          path: data
+      - name: Build releases.json
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/build_releases.py mods.json data/releases.json
+      - name: Commit if anything changed
+        working-directory: data
+        run: |
+          git add releases.json
+          if git diff --cached --quiet; then
+            echo "No release changed"
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update releases.json"
+          git push
