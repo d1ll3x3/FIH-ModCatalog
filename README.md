@@ -48,6 +48,12 @@ mods allowed in runs submitted to [speedrun.com](https://www.speedrun.com/Flippi
 `.github/speedrun-moderators.txt` can add or change the `speedrun` field; the check fails if anyone else
 does.
 
+## New versions
+
+The manager doesn't ask GitHub for each mod's release (that would use up GitHub's limit of 60 checks per hour).
+The Releases action writes the latest release of every mod to `releases.json` in the `data` branch every 30
+minutes, and the manager reads that file. A new release of your mod can take about half an hour to show up.
+
 ## Check it locally
 
 ```
