@@ -317,7 +317,7 @@
           "name": "FlippingIsTag-v1.1.0.zip",
           "browser_download_url": "https://github.com/d1ll3x3/FlippingIsTag/releases/download/v1.1.0/FlippingIsTag-v1.1.0.zip",
           "size": 147993,
-          "download_count": 0
+          "download_count": 1
         }
       ]
     },
@@ -379,23 +379,23 @@
       ]
     },
     "d1ll3x3/FIH_ModManager": {
-      "tag_name": "v1.0.7",
-      "name": "FIH Mod Manager v1.0.7",
-      "body": "# FIH Mod Manager v1.0.7\n\n## What's New\n\n### Speedrun\n- **Speedrun Mods**: The Speedrun tab now opens on a new list of tools made for speedrunning: TAS Tool, Sum of Best and Official Speedrun Mod. Each one says whether you can use it in a recorded run, like \"Allowed in runs\" or \"Only for level and challenge runs\".\n- **Allowed in Runs**: The list of every mod allowed in runs submitted to speedrun.com is now the second tab.\n- **Official Speedrun Mod**: Practice levels from a Speedrun app in the game's phone, with teleports, a restart key, a timer for each level and your best times. It's in the catalog, so it shows up in Explore too.\n\n## Installation\n- **Windows**: download `FIHModManager.exe` and run it.\n- **Linux**: download `FIHModManager-linux-x64`, make it executable (`chmod +x FIHModManager-linux-x64`) and run it.\n- If you already have an earlier version, the app offers this update on its own at startup.\n",
-      "published_at": "2026-11-15T19:32:05Z",
-      "html_url": "https://github.com/d1ll3x3/FIH_ModManager/releases/tag/v1.0.7",
+      "tag_name": "v1.0.8",
+      "name": "FIH Mod Manager v1.0.8",
+      "body": "# FIH Mod Manager v1.0.8\n\n## What's New\n\n### GitHub Limit\n- **No More \"60 Checks per Hour\" Error**: Explore, Speedrun, Check for updates and the manager's own update check now read every mod's latest version from a single file published by [FIH-ModCatalog](https://github.com/d1ll3x3/FIH-ModCatalog), instead of asking GitHub once per mod. Reading that file doesn't count towards GitHub's limit, so browsing and refreshing no longer use it up.\n- **Other Repositories**: Mods installed by typing `user/repository` still ask GitHub directly, as before.\n- **New Versions**: A new release of a mod in the catalog can take about half an hour to show up in the manager.\n\n## Installation\n- **Windows**: download `FIHModManager.exe` and run it.\n- **Linux**: download `FIHModManager-linux-x64`, make it executable (`chmod +x FIHModManager-linux-x64`) and run it.\n- If you already have an earlier version, the app offers this update on its own at startup.\n",
+      "published_at": "2026-11-18T15:55:22Z",
+      "html_url": "https://github.com/d1ll3x3/FIH_ModManager/releases/tag/v1.0.8",
       "assets": [
         {
           "name": "FIHModManager-linux-x64",
-          "browser_download_url": "https://github.com/d1ll3x3/FIH_ModManager/releases/download/v1.0.7/FIHModManager-linux-x64",
-          "size": 83559165,
-          "download_count": 1
+          "browser_download_url": "https://github.com/d1ll3x3/FIH_ModManager/releases/download/v1.0.8/FIHModManager-linux-x64",
+          "size": 83563325,
+          "download_count": 0
         },
         {
           "name": "FIHModManager.exe",
-          "browser_download_url": "https://github.com/d1ll3x3/FIH_ModManager/releases/download/v1.0.7/FIHModManager.exe",
-          "size": 96844232,
-          "download_count": 43
+          "browser_download_url": "https://github.com/d1ll3x3/FIH_ModManager/releases/download/v1.0.8/FIHModManager.exe",
+          "size": 96848328,
+          "download_count": 0
         }
       ]
     }
