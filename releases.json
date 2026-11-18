@@ -1,0 +1,403 @@
+{
+  "releases": {
+    "d1ll3x3/SkinChanger_FlippingIsHard": {
+      "tag_name": "v1.8.0",
+      "name": "v1.8.0 - Cover model, colour picker and jump styles",
+      "body": "# CharmReplacer v1.8.0\r\n\r\n## What's New\r\n\r\n### Mod Tab\r\n- **Captions**: Added a caption to every entry of the **Mod** tab, so each one says what it does.\r\n- **Context**: Entries now only show where they apply: **Model** with your custom skin on, **Jump style** and **Jump colour** with the jump glow on, **Colour** for covers that take a tint, and the Wizard's three colours with the Wizard equipped. The tab updates as you switch things on and off.\r\n\r\n### Cover Model\r\n- **Model Picker**: Added a **Model** entry that picks which cover your custom skin (`Skin.png`) is painted on, instead of always the default one. It lists the default cover and every cover you own or have unlocked, using the game's own check (paid DLC covers need the DLC, progression covers need unlocking). Covers without a paintable texture (the Wizard) are left out.\r\n- **Multiplayer**: Players with the mod load the same model under your skin.\r\n- **UV Note**: Your skin follows the picked cover's UV layout, so a texture drawn for the default cover may sit differently on others.\r\n\r\n### Colour Picker\r\n- **Picker Panel**: Replaced the click-to-cycle palettes with a floating panel over the entry list: saturation/value square, hue bar, intensity bar (0-200 %), hex readout, **Reset** and **Done**. Changes show live on the preview and are saved and sent to other players on release.\r\n- **Separate Wizard Colours**: The Wizard's top, bottom and swirl colours are now set one by one instead of being derived from the cover colour.\r\n- **Config**: Colours accept an intensity, e.g. `FF0000:150`. Plain `RRGGBB` values keep working.\r\n\r\n### Jump Glow\r\n- **Jump Style**: Added a **Jump style** entry to choose the light on any cover: **Lines** (the Hangeris side lines without the keypad), **Keypad** (the Hangeris light whole) or **Outline** (the phone's outline, as on the Wizard). Covers without the full phone body (Wizard, Eggo, Midas...) can only take **Outline**, and the panel greys the others out there.\r\n- **Hangeris**: **Keypad** uses the cover's own light in your colour; the other styles switch it off and add theirs.\r\n- **Config**: `JumpGlowStyle` (`Lines` by default).\r\n\r\n## Installation\r\n1. Install BepInEx 6 (IL2CPP) and launch the game once.\r\n2. Extract the zip into `BepInEx/plugins/` (it creates `charmreplacer/` with `CharmReplacer.dll`), then add your `Skin.png`, `Skin_Emission.png`, `hatbundle` and `Face.png`. Updating: replace `CharmReplacer.dll`.\r\n3. Open the customization screen and use the **Mod** tab.\r\n",
+      "published_at": "2026-11-05T03:25:44Z",
+      "html_url": "https://github.com/d1ll3x3/SkinChanger_FlippingIsHard/releases/tag/v1.8.0",
+      "assets": [
+        {
+          "name": "CharmReplacer-v1.8.0.zip",
+          "browser_download_url": "https://github.com/d1ll3x3/SkinChanger_FlippingIsHard/releases/download/v1.8.0/CharmReplacer-v1.8.0.zip",
+          "size": 70668,
+          "download_count": 30
+        }
+      ]
+    },
+    "fabuleo8796/StickerSwap": {
+      "tag_name": "v1.1.1",
+      "name": "StickerSwap 1.1.1",
+      "body": "## StickerSwap 1.1.1\n\n- **FIH Sync comes included:** sharing with other modded players works out of the box, nothing else to install. With several of my mods installed, the game runs only one copy of it.\n- Nothing else changed.\n\n**Install:** update from FIH Mod Manager, or extract `StickerSwap-v1.1.1.zip` into the game folder.\n",
+      "published_at": "2026-11-13T20:18:55Z",
+      "html_url": "https://github.com/fabuleo8796/StickerSwap/releases/tag/v1.1.1",
+      "assets": [
+        {
+          "name": "StickerSwap-v1.1.1.zip",
+          "browser_download_url": "https://github.com/fabuleo8796/StickerSwap/releases/download/v1.1.1/StickerSwap-v1.1.1.zip",
+          "size": 393522,
+          "download_count": 17
+        }
+      ]
+    },
+    "fabuleo8796/CapeEditor": {
+      "tag_name": "v1.1.1",
+      "name": "Cape Editor 1.1.1",
+      "body": "## Cape Editor 1.1.1\n\n- **FIH Sync comes included:** sharing with other modded players works out of the box, nothing else to install. With several of my mods installed, the game runs only one copy of it.\n- Nothing else changed.\n\n**Install:** update from FIH Mod Manager, or extract `CapeEditor-v1.1.1.zip` into the game folder.\n",
+      "published_at": "2026-11-13T20:18:45Z",
+      "html_url": "https://github.com/fabuleo8796/CapeEditor/releases/tag/v1.1.1",
+      "assets": [
+        {
+          "name": "CapeEditor-v1.1.1.zip",
+          "browser_download_url": "https://github.com/fabuleo8796/CapeEditor/releases/download/v1.1.1/CapeEditor-v1.1.1.zip",
+          "size": 323417,
+          "download_count": 10
+        }
+      ]
+    },
+    "fabuleo8796/FlippyAuras": {
+      "tag_name": "v0.2.2",
+      "name": "Flippy Auras 0.2.2",
+      "body": "## Flippy Auras 0.2.2\n\n- **FIH Sync comes included:** sharing with other modded players works out of the box, nothing else to install. With several of my mods installed, the game runs only one copy of it.\n- Nothing else changed.\n\n**Install:** update from FIH Mod Manager, or extract `FlippyAuras-v0.2.2.zip` into the game folder.\n",
+      "published_at": "2026-11-13T20:18:36Z",
+      "html_url": "https://github.com/fabuleo8796/FlippyAuras/releases/tag/v0.2.2",
+      "assets": [
+        {
+          "name": "FlippyAuras-v0.2.2.zip",
+          "browser_download_url": "https://github.com/fabuleo8796/FlippyAuras/releases/download/v0.2.2/FlippyAuras-v0.2.2.zip",
+          "size": 326221,
+          "download_count": 11
+        }
+      ]
+    },
+    "fabuleo8796/BodyAccessories": {
+      "tag_name": "v0.2.5",
+      "name": "Body Accessories 0.2.5",
+      "body": "## Body Accessories 0.2.5\n\n- **FIH Sync comes included:** sharing with other modded players works out of the box, nothing else to install. With several of my mods installed, the game runs only one copy of it.\n- Nothing else changed.\n\n**Install:** update from FIH Mod Manager, or extract `BodyAccessories-v0.2.5.zip` into the game folder.\n",
+      "published_at": "2026-11-13T20:18:27Z",
+      "html_url": "https://github.com/fabuleo8796/BodyAccessories/releases/tag/v0.2.5",
+      "assets": [
+        {
+          "name": "BodyAccessories-v0.2.5.zip",
+          "browser_download_url": "https://github.com/fabuleo8796/BodyAccessories/releases/download/v0.2.5/BodyAccessories-v0.2.5.zip",
+          "size": 500309,
+          "download_count": 10
+        }
+      ]
+    },
+    "fabuleo8796/FIHUltra": {
+      "tag_name": "v0.3.0",
+      "name": "FIH Ultra v0.3.0",
+      "body": "First release of FIH Ultra, a graphics mod that gives Flipping is Hard a cinematic look while keeping its toy style.\n\n- Sharper image (full resolution), better and longer shadows, smooth edges (TAA) with a light sharpen\n- Cinematic colour, ambient occlusion, bloom and god rays that match each level's sky\n- Photo preset with golden hour and depth of field, for screenshots and videos\n- U opens the panel (presets, every effect with its own switch and strength, FPS), F7 shows before and after\n\nInstall: extract `FIHUltra-v0.3.0.zip` into the game folder (the one with `Flipping is Hard.exe`). You need BepInEx 6 IL2CPP. Client-side only, safe in multiplayer.\n",
+      "published_at": "2026-11-05T20:22:52Z",
+      "html_url": "https://github.com/fabuleo8796/FIHUltra/releases/tag/v0.3.0",
+      "assets": [
+        {
+          "name": "FIHUltra-v0.3.0.zip",
+          "browser_download_url": "https://github.com/fabuleo8796/FIHUltra/releases/download/v0.3.0/FIHUltra-v0.3.0.zip",
+          "size": 163328,
+          "download_count": 27
+        }
+      ]
+    },
+    "d1ll3x3/FirstPersonIsHard": {
+      "tag_name": "v1.0.0",
+      "name": "v1.0.0",
+      "body": "First person camera for Flipping is Hard, built so the flips do not make you sick.\n\nThe camera sits inside the phone but never inherits its rotation: the aim comes from the game's own Cinemachine camera with the roll thrown away, so the horizon stays level even mid-flip. The eye is anchored to the centre of mass — an offset that rotated with the body would orbit it several times a second, and that wobble is what actually makes people sick — and the vertical axis is smoothed with a hard cap on how far it may lag behind. Teleports and respawns cut instead of sweeping.\n\nComfort aids on top: a vignette that closes in while turning or moving fast, a fixed centre dot, its own field of view, and the game's speed lines turned off while you are inside. Your phone goes shadows-only so you keep your shadow, and the edges of your collider are drawn so you can still read how you are spinning.\n\nAll of it is tunable in-game (F2), because where a first person view stops being sickening only shows up while playing.\n\n**Install:** drop `FirstPersonFIH.dll` into `BepInEx/plugins/`. Needs BepInEx 6 (IL2CPP).\n**Controls:** F1 first person, F2 menu.\n\nBuilt against the Steam demo's interop, and also compiles and runs against the 1.8 playtest.",
+      "published_at": "2026-08-12T21:29:28Z",
+      "html_url": "https://github.com/d1ll3x3/FirstPersonIsHard/releases/tag/v1.0.0",
+      "assets": [
+        {
+          "name": "FirstPersonFIH.dll",
+          "browser_download_url": "https://github.com/d1ll3x3/FirstPersonIsHard/releases/download/v1.0.0/FirstPersonFIH.dll",
+          "size": 41984,
+          "download_count": 13
+        }
+      ]
+    },
+    "GamingGamer115/FIH-Photo-Mode": {
+      "tag_name": "v1.0",
+      "name": "v1.0",
+      "body": "### The Release",
+      "published_at": "2026-10-27T16:12:45Z",
+      "html_url": "https://github.com/GamingGamer115/FIH-Photo-Mode/releases/tag/v1.0",
+      "assets": [
+        {
+          "name": "PhotoMode.dll",
+          "browser_download_url": "https://github.com/GamingGamer115/FIH-Photo-Mode/releases/download/v1.0/PhotoMode.dll",
+          "size": 44032,
+          "download_count": 10
+        }
+      ]
+    },
+    "fabuleo8796/TripodCam": {
+      "tag_name": "v0.5.1",
+      "name": "Tripod Cam 0.5.1",
+      "body": "## Tripod Cam 0.5.1\n\n- **FIH Sync comes included:** sharing with other modded players works out of the box, nothing else to install. With several of my mods installed, the game runs only one copy of it.\n- Nothing else changed.\n\n**Install:** update from FIH Mod Manager, or extract `TripodCam-v0.5.1.zip` into the game folder.\n",
+      "published_at": "2026-11-13T20:19:03Z",
+      "html_url": "https://github.com/fabuleo8796/TripodCam/releases/tag/v0.5.1",
+      "assets": [
+        {
+          "name": "TripodCam-v0.5.1.zip",
+          "browser_download_url": "https://github.com/fabuleo8796/TripodCam/releases/download/v0.5.1/TripodCam-v0.5.1.zip",
+          "size": 349892,
+          "download_count": 8
+        }
+      ]
+    },
+    "d1ll3x3/FlippingIsHard_TAS_Tool": {
+      "tag_name": "v2.1.0",
+      "name": "v2.1.0 — Input pins, editor overhaul, calmer UI",
+      "body": "# FlippingIsHard_TAS_Tool v2.1.0\n\n## What's New\n\n### Replay & Recording Reliability\n- **Gap-safe Replay**: Fixed macros with missing ticks teleporting the player to (0,0,0) during playback; ticks without a recorded frame are now skipped instead of injected as an empty state.\n- **Trusted Macro Length**: Fixed old `.tas` files whose header `MaxTick` ran past the last row replaying extra empty ticks.\n- **Menu Exit During Replay**: Fixed leaving to the main menu mid-replay leaving playback active and the camera stuck at the origin; the recorded macro is now kept across menu trips.\n- **Safe Reset Tick**: Prevented `F5` from wiping the macro in Edit Mode; while recording it now restarts the recording at tick 0.\n- **Edit Mode Exit**: Fixed `F9` in Edit Mode leaving an inconsistent half-recording state; it now exits Edit Mode.\n- **Full-game Quick Restart**: Fixed the pause-at-tick-0 hold only working on the demo; any `Scene_Game*` level is now detected.\n- **Single FishNet Hook**: Fixed the FishNet tick hooks being subscribed twice after every Quick Restart.\n- **Pause at Macro End**: Added an automatic pause on the replay's last frame (toggle in Settings), so `F8` continues editing from there.\n- **Savestates in Recordings**: Changed Load State (`R`) during a recording to jump to the savestate's frame instead of corrupting the run.\n- **Game Menu Guard**: Disabled TAS hotkeys while the game's own pause/customization menu is open.\n\n### Edit Mode & Input Pins\n- **Input Pins**: Added W/A/S/D/JUMP/INT toggles and exact analog X/Y in the editor; every frame-advance (`.`) in Edit Mode records them, with no keys held.\n- **Fork from a Cell**: Changed clicking a JUMP/INT cell to enter Edit Mode on the previous frame with that frame's inputs pinned and the button toggled, ready to re-record with `.`.\n- **Quick Play**: Changed `F10` during a recording or Edit Mode to stop it and replay from the start.\n- **Continue a Macro**: Added `F8` when idle to enter Edit Mode at the macro's last frame.\n\n### TAS Editor (`T`)\n- **Range Selection**: Added Shift+click and Shift+arrow selection for Insert / Delete / Copy / Paste over whole ranges.\n- **Full-state Paste**: Changed Paste to copy the complete recorded state, so pasted segments play back exactly.\n- **Trim and New**: Added Trim after (drop everything past the cursor) and New (discard the macro, undoable).\n- **Keyboard Shortcuts**: Added `Ctrl+Z`/`Ctrl+Y`, `Ctrl+C`/`Ctrl+V`, `DEL`, `INS`, arrows, `PgUp`/`PgDn`, `Home`/`End` and `Ctrl+S`.\n- **File Browser**: Added a list of saved macros (double-click to load), an unsaved-changes marker and confirmations before overwriting or discarding work.\n- **Analysis Columns**: Added SPEED and HEIGHT columns, a draggable scrollbar and a table that fits the screen height.\n\n### Interface & HUD\n- **Compact HUD**: Replaced the always-on keybind panel with a small status panel (mode, tick, macro length, savestate); the full key list toggles with `F1`.\n- **Toast Notifications**: Added short on-screen confirmations for recording, replay, savestates, saves and errors.\n- **Calmer, Readable Theme**: Replaced the saturated colour blocks with a muted palette, tinted state badges and high-contrast text across the HUD, editor and settings.\n- **Settings Window (`B`)**: Rebuilt as a modal two-column window with per-key unbind, conflict warnings (including game keys) and HUD scale / pause-at-end / key-list options.\n\n### Architecture & Core Refactor\n- Introduced a shared `TASGui` toolkit (drawing, manual hit-testing, draggable windows, layered input) replacing three duplicated widget implementations; IMGUI interactive controls remain unused because they are broken in this IL2CPP build.\n- Unified the three copies of the Cinemachine orbit read/write logic and cached the player components.\n- `.tas` import now parses the whole file before replacing the current macro, and macro/config saves are written through a temp file (format unchanged: `TAS4`, older `TAS3`/`TAS2` still import).\n- Replaced silent `catch {}` blocks with one-time logged warnings; removed dead code (`FishNetPatch`, `FindRestart`) and the retired greenzone concept.\n- Keybinds are driven by a single action table; the build now targets the full game's interop, and `setup-libs.ps1` honours `-GamePath`.\n- License changed to AGPL-3.0.\n\n## Installation\n1. Install BepInEx 6 (IL2CPP) and launch the game once.\n2. Copy FlippingIsHardTAS.dll into BepInEx/plugins/FlippingIsHardTAS/.\n3. Enter a level, press `T` to open the TAS Editor (`F1` shows every key, `B` opens Settings).\n",
+      "published_at": "2026-11-09T11:17:36Z",
+      "html_url": "https://github.com/d1ll3x3/FlippingIsHard_TAS_Tool/releases/tag/v2.1.0",
+      "assets": [
+        {
+          "name": "FlippingIsHardTAS.dll",
+          "browser_download_url": "https://github.com/d1ll3x3/FlippingIsHard_TAS_Tool/releases/download/v2.1.0/FlippingIsHardTAS.dll",
+          "size": 98304,
+          "download_count": 9
+        }
+      ]
+    },
+    "d1ll3x3/FlippingIsHard-Trainer-BepInEx": {
+      "tag_name": "v1.9.0",
+      "name": "v1.9.0 - Achievement block",
+      "body": "# Flipping is Hard Trainer v1.9.0\n\n## What's New\n\n### Achievement Blocking\n- **No Achievements While Loaded**: Disabled every achievement and achievement stat while the trainer is loaded, since fly, teleports and the rest are advantages.\n- **Native Game Block**: Integrated the game's own achievement block, the one Crowd Control runs use (`useStreamerEffects`), with no achievement allowed through its allowlist.\n- **Block Kept Across Loads**: Prevented loading, restarting or joining a world from lifting the block, which `AchievementsManager.ApplyBlockingState` recomputes from the save each time.\n\n### Architecture & Core Refactor\n- New `AchievementBlocker.cs` checks the block every frame from game start, before the player is found, and calls `AchievementsCore.SetBlockingState(true, null, null)` when it is missing; no game method is Harmony-patched. It logs `Achievements blocked: they can't be earned while the trainer is loaded.` once.\n- The block lasts only while the trainer is loaded: the save is not marked, so removing the trainer lets achievements unlock again.\n- The build now references `Il2CppSystem.Core` (copy it from `BepInEx/interop` into `lib`).\n\n## Installation\n1. Install BepInEx 6 (IL2CPP) and launch the game once.\n2. Copy FlippingIsHardTrainer.dll into BepInEx/plugins/FlippingIsHardTrainer/ (replace the old one).\n3. Press `B` (or `L1+R1` / `LB+RB` on a gamepad) in game to open the Bind Menu.\n",
+      "published_at": "2026-10-28T23:08:14Z",
+      "html_url": "https://github.com/d1ll3x3/FlippingIsHard-Trainer-BepInEx/releases/tag/v1.9.0",
+      "assets": [
+        {
+          "name": "FlippingIsHardTrainer.dll",
+          "browser_download_url": "https://github.com/d1ll3x3/FlippingIsHard-Trainer-BepInEx/releases/download/v1.9.0/FlippingIsHardTrainer.dll",
+          "size": 116736,
+          "download_count": 93
+        }
+      ]
+    },
+    "d1ll3x3/FIH_Ghost": {
+      "tag_name": "v0.1.1",
+      "name": "FIH Ghost v0.1.1",
+      "body": "# FIH Ghost v0.1.1\n\n## Fixes\n\n### Ghosts & Playback\n- **Phone Ghost**: Fixed ghosts showing only the screen without the casing. The copy kept the material property block the game puts on the casing's renderers, which overrode the ghost material; it is now cleared like the game clears it.\n",
+      "published_at": "2026-10-26T13:11:39Z",
+      "html_url": "https://github.com/d1ll3x3/FIH_Ghost/releases/tag/v0.1.1",
+      "assets": [
+        {
+          "name": "FIHGhost.dll",
+          "browser_download_url": "https://github.com/d1ll3x3/FIH_Ghost/releases/download/v0.1.1/FIHGhost.dll",
+          "size": 111104,
+          "download_count": 3
+        },
+        {
+          "name": "FIHGhost_v0.1.1.zip",
+          "browser_download_url": "https://github.com/d1ll3x3/FIH_Ghost/releases/download/v0.1.1/FIHGhost_v0.1.1.zip",
+          "size": 49899,
+          "download_count": 17
+        }
+      ]
+    },
+    "PgoTracker/SOB-mod": {
+      "tag_name": "1.0.0",
+      "name": "SOB 1.0.0",
+      "body": "**Full Changelog**: https://github.com/PgoTracker/SOB-mod/commits/1.0.0",
+      "published_at": "2026-11-09T22:54:33Z",
+      "html_url": "https://github.com/PgoTracker/SOB-mod/releases/tag/1.0.0",
+      "assets": [
+        {
+          "name": "SumOfBestMod.dll",
+          "browser_download_url": "https://github.com/PgoTracker/SOB-mod/releases/download/1.0.0/SumOfBestMod.dll",
+          "size": 13824,
+          "download_count": 24
+        }
+      ]
+    },
+    "d1ll3x3/FIH_OfficialSpeedrunMod": {
+      "tag_name": "v1.2.0",
+      "name": "FIH Official Speedrun Mod v1.2.0",
+      "body": "# FIH Official Speedrun Mod v1.2.0\r\n\r\n## What's New\r\n\r\n### Hotkeys App Section\r\n- **Hotkeys Are Back**: Added a Hotkeys section to the Speedrun app, with its own animated gamepad icon, to set the restart binds and a hotkey for every level and NPC teleport from the phone.\r\n- **Capture in the Phone**: Pick a row, press the keys or buttons together and let go; `Esc` cancels, `Delete` removes the bind, and ten seconds with nothing pressed cancel (for a gamepad alone). The phone's own navigation is paused meanwhile, so the buttons pressed don't move the selection.\r\n- **Several Restart Binds**: Restart can have as many binds as you like, added with **Add restart bind**.\r\n\r\n### Keyboard & Gamepad Combos\r\n- **Combos on Both**: Introduced binds made of keys and gamepad buttons held together, keyboard and gamepad alike: `R`, `Ctrl+Alpha1`, `Pad.L3+Pad.R3`, even `Shift+Pad.A`.\r\n- **Gamepad Restart**: Added `L3 + R3` (both sticks pressed in) as a default restart bind, next to `R`. Every gamepad button already does something in the game, so the default is the combo that matters least (L3 + R3 also pings).\r\n- **Same Buttons on Every Gamepad**: Gamepad buttons are read through the Input System with their Xbox names (`Pad.A` is Cross on PlayStation).\r\n- **Most Specific Wins**: When several binds match, the one with the most keys and buttons wins, so `R` and `Shift+R` can do different things. A combo held while the phone closes doesn't fire.\r\n\r\n### Faster Loading\r\n- **Icons Drawn in .NET**: The app's animated icons are now drawn with .NET's own math instead of Unity's `Mathf` and `Vector2`, which are calls into the game in IL2CPP. The first level load of a session went from about 31 s to 10 s, the rest being the game's own loading.\r\n- **Spread Over Frames**: Only the drawing each icon rests on is made while the level loads; the other frames are drawn one per frame afterwards, so the app adds about a tenth of a second to the load.\r\n\r\n### Architecture & Core Refactor\r\n- The `RestartKey` config entry is replaced by `Restart`, a comma-separated list of binds (default `R, Pad.L3+Pad.R3`): a custom restart key has to be set again. Teleport hotkeys keep their values.\r\n- An unknown key or button name in the config disables that bind only, with a warning in the log listing the valid names.\r\n\r\n## Installation\r\n1. Install BepInEx 6 (IL2CPP) and launch the game once, or install the mod from FIH Mod Manager.\r\n2. Copy OfficialSpeedrunMod.dll into BepInEx/plugins/OfficialSpeedrunMod/.\r\n3. Open the phone (`Tab`) and pick the Speedrun app, and press `R` (or `L3 + R3`) to restart from the last spawn.\r\n\r\n",
+      "published_at": "2026-11-16T09:47:33Z",
+      "html_url": "https://github.com/d1ll3x3/FIH_OfficialSpeedrunMod/releases/tag/v1.2.0",
+      "assets": [
+        {
+          "name": "OfficialSpeedrunMod.dll",
+          "browser_download_url": "https://github.com/d1ll3x3/FIH_OfficialSpeedrunMod/releases/download/v1.2.0/OfficialSpeedrunMod.dll",
+          "size": 81408,
+          "download_count": 19
+        }
+      ]
+    },
+    "d1ll3x3/ChaosIsHard": {
+      "tag_name": "v1.1.0",
+      "name": "ChaosIsHard v1.1.0",
+      "body": "Player tuning, presets, lobby sync and a personal mode.\n\n**Not yet tested in-game.** Everything here compiles clean but has not been run once, and the networking half needs two machines to verify. Report anything odd.\n\n### Player tuning\nThe menu now edits the game's `PlayerSettingsSO` directly, on three new pages:\n\n- **SPIN** — torque strength, spin cap, angular damping, per-axis phone torque, error margin, and the game's own spin-speed-to-torque table\n- **JUMP** — jump forces, cooldown, buffer, anti wall-jump windows\n- **AIR** — terminal velocity and air control\n\nA value you have not touched reads `(game)` and is left exactly as shipped: nothing is written until you move it. The effects that write to the same asset (`spin`, `ice`, `moon_jump`, `long_jump`, `feather`) are computed from your tuned value and revert to it, so a spin effect running out no longer undoes the torque you set.\n\n### Presets\nA new `PRESETS` page saves named settings to `BepInEx\\plugins\\ChaosIsHard\\Presets\\`, as two independent files per preset: `.params.json` (everything except key binds) and `.binds.json` (key binds only). Browse, load and delete them in-game; deleting asks once.\n\n### Menu\nSix pages instead of one long list, and the mouse works throughout — hover to pick a row, click to select a field, and **the wheel over any number changes it**. All the keyboard navigation is unchanged.\n\n### Lobby sync\nIn `Shared` mode the host's gameplay settings now apply to the whole lobby: player tuning, effect strengths and durations, cooldown, retrigger, challenge mode. A client's own config file is never written to — the host's values sit on top of it and are dropped once the host goes quiet.\n\n### Personal mode\nA new `General/LobbyMode`, decided by the host. In `Personal`, everyone is on their own: their own effects, their own settings, and nothing lands on anybody else.\n\n- **`tiny` and `huge` become per-player** and stop being host-only. The game has no per-player size, so each player scales their own Flippy and publishes that size for everyone else to match.\n- Gravity is per-player through the local multiplier.\n- Time scale is refused for everyone — the clock is the one thing a session has to agree on.\n\n### Also\n- The two effects both called **HEAVY** are now **HIGH GRAVITY** (gravity) and **HEAVY (MASS)** (mass). Config ids are unchanged, so existing `.cfg` files still work.\n\n**Install:** drop the `ChaosIsHard` folder into `BepInEx\\plugins\\`.",
+      "published_at": "2026-08-09T12:27:25Z",
+      "html_url": "https://github.com/d1ll3x3/ChaosIsHard/releases/tag/v1.1.0",
+      "assets": [
+        {
+          "name": "ChaosIsHard-v1.1.0.zip",
+          "browser_download_url": "https://github.com/d1ll3x3/ChaosIsHard/releases/download/v1.1.0/ChaosIsHard-v1.1.0.zip",
+          "size": 70250,
+          "download_count": 60
+        }
+      ]
+    },
+    "d1ll3x3/ChainedIsHard": {
+      "tag_name": "v1.1.0",
+      "name": "Chained Is Hard v1.1.0",
+      "body": "# Chained Is Hard v1.1.0\n\n## What's New\n\n### Boost Pads & Cannons\n- **Network Pad Detection**: Replaced position watching with hooks on the game's own pad messages (`VisualSyncBoostPad.ActivateOneShot` and the networked pad's `SyncObserverRpc`), so a neighbour's pad launch is always heard, however fast they cross it.\n- **Exact Pad Kick**: Fixed shared pad launches falling short by also granting the 0.25 s of air control the real pad gives through `PlayerMovement.ActivateAirControl`.\n- **Own Launch Detection**: Added hooks on `OnPlayerEntered` for both pad kinds, so your own launch is known on the same physics step instead of a round trip later.\n- **Shared Cannon Shots**: Added `ShareCannons`, which gives you the same shot as a neighbour fired from a cannon you were not in: its direction and `launchForce`, blocked air control and `FakeJump`, within `LaunchRange`.\n- **Exact Cannon Loading**: Replaced the position check for yourself with the cannon's own `IsLocalPlayerInsideCannon`.\n- **Aborted Shots**: Fixed climbing out of a cannon before it fires counting as a launch.\n\n### Help Beams\n- **Lifted Player Leads**: Fixed the rope dragging a player lifted by a help beam back down and shaking at the chain length; the lifted player now leads and the other end of the link follows them up.\n\n### Rope Physics\n- **Velocity-Based Rope**: Replaced the per-step `MovePosition` correction with a target closing speed applied to velocity, which removed the teleport-like steps, kept momentum and stopped the rope pulling players through floors.\n- **Lag Compensation**: Fixed linked players speeding up and spinning round each other in the air by pulling towards the neighbour's predicted position (half the FishNet round trip plus interpolation) instead of the stale one.\n- **Speed Cap**: Prevented the rope from ever accelerating a player past 10 m/s by itself.\n- **Even Split**: Fixed both ends of a link taking the whole correction, which made the rope twice as stiff as set.\n- **Gradual Re-tension**: Introduced `ReelSpeed`, which reels the rope back in after a launch, respawn or pause instead of yanking everyone together.\n- **Working Defaults**: Replaced the 1.0 default that barely pulled (`Elasticity` 0.98) with `PullRate`, `Firmness` and `MaxPull`, tunable live from the `Insert` menu.\n- **Readout States**: Added `reeling in`, `lifted, leading`, `following the beam` and `took their pad / cannon` to the corner readout.\n\n### Shared Countdown & Settings Sync\n- **Client Countdowns**: Fixed a client's `Q` countdown never reaching anyone by sending it through `PlayerFeatureVisualRelay`, since the game ignores the old `RequestUpdateLookDirectionServerRpc` channel unless a Troll Mode player is in the lobby.\n- **Same-Tick Finish**: Fixed countdowns ending late on remote screens by naming each call by its FishNet tick and taking the transit time off the count.\n- **Settings Hash**: Fixed `LaunchSuspend` silently not following the host by widening the setting hash from 12 to 20 bits.\n\n### Architecture & Core Refactor\n- Retargeted the build at the released game (v1.3) instead of the demo.\n- Harmony patches go in one by one and only on methods with a body of their own, checked against the address map; a missing target costs only that hook.\n- Config files keep working: old defaults (`SpeedPull` 1, `Slack` 0) move to the new ones, and `Elasticity`, `MaxCorrection`, `Damping` and `Share` are retired; their leftover lines in an old config file are ignored.\n- Neighbour velocity is smoothed before the rope reads it, so bursts of network updates are not read as lunges.\n\n### Known Issues\n- A shared launch starts from where you stand, so on a tight jump the shifted arc can clip a wall the real one clears. Stay close to whoever goes first.\n- The host has no round trip of its own to measure, so its lag compensation assumes 80 ms.\n- Running it alongside Chaos Is Hard still makes both mods' settings sync slowly; they share one channel.\n\n## Installation\n1. Install BepInEx 6 (IL2CPP) and launch the game once.\n2. Copy the `ChainedIsHard` folder from the zip into `BepInEx/plugins/`. Everyone in the lobby needs v1.1.0.\n3. Press `Insert` in game to open the settings menu; `Q` calls a shared countdown and `F1` toggles the chain.\n",
+      "published_at": "2026-11-08T19:53:33Z",
+      "html_url": "https://github.com/d1ll3x3/ChainedIsHard/releases/tag/v1.1.0",
+      "assets": [
+        {
+          "name": "ChainedIsHard-v1.1.0.zip",
+          "browser_download_url": "https://github.com/d1ll3x3/ChainedIsHard/releases/download/v1.1.0/ChainedIsHard-v1.1.0.zip",
+          "size": 51431,
+          "download_count": 12
+        }
+      ]
+    },
+    "d1ll3x3/FIH_NoRestartNovember": {
+      "tag_name": "v1.0.0",
+      "name": "No Restart November v1.0.0",
+      "body": "# No Restart November v1.0.0\n\n## What's New\n\n### Run Lock\n- **One Run, Start To Finish**: Introduced a run lock on every local save slot, held from the moment the run is played until the game marks it as ended at the end of the map.\n- **Lock Kept On Disk**: Added `NRN.cfg` next to the dll with the locked save slot (`[Run] LockedSlot`), saved as soon as it changes so closing the game at any moment keeps it.\n- **Relock After Ending**: Integrated restarts from the end screen, which start a new run in the same slot that is locked again.\n- **Online Sessions Untouched**: Prevented the lock in joined lobbies and the online world slot; a local slot stays locked even if friends join it.\n\n### No Restarting\n- **Restart Blocked Everywhere**: Disabled the pause menu restart, the quick restart and every restart request through `GameEndManager.CanLocalPlayerRequestRestart`, which all of them ask.\n- **Hidden Restart Button**: Replaced the pause menu's restart button visibility (`CanShowRestartButton`) so it is not shown while the run is locked.\n- **Unstuck Still Works**: Kept the pause menu's **Unstuck**, which gets you out of the geometry without restarting anything.\n\n### No Main Menu\n- **Save And Exit Blocked**: Disabled the pause menu's **Save and exit** while the run is locked, both the button and its action.\n- **Auto Resume On Launch**: Added a main menu skip that selects the locked run's save slot and starts it, the same as clicking the slot and the start button.\n- **Stale Lock Release**: Dropped the lock when its save slot is empty or already ended on launch, so the main menu is shown.\n\n### Architecture & Core Refactor\n- Four parameterless Harmony patches on methods with a body of their own (checked in `fih-address-map.json`: no folded twins), each patched on its own so a method a game update removes only costs that patch.\n- The run state and the main menu are polled from an injected MonoBehaviour; the slot is resumed through `StartGameManager.TrySelectSlot` and `OnGameStartClicked`.\n- Built against the game's interop assemblies from the 2026-11-01 update.\n\n## Installation\n1. Install BepInEx 6 (IL2CPP) and launch the game once.\n2. Copy NRN.dll into BepInEx/plugins/NRN/.\n3. Start a run in any local save slot: it can't be restarted or left until it ends, and the game goes straight back into it when opened.\n",
+      "published_at": "2026-11-02T03:06:36Z",
+      "html_url": "https://github.com/d1ll3x3/FIH_NoRestartNovember/releases/tag/v1.0.0",
+      "assets": [
+        {
+          "name": "NRN.dll",
+          "browser_download_url": "https://github.com/d1ll3x3/FIH_NoRestartNovember/releases/download/v1.0.0/NRN.dll",
+          "size": 13312,
+          "download_count": 2
+        }
+      ]
+    },
+    "d1ll3x3/FIH_GrapplingHook": {
+      "tag_name": "v0.1.0",
+      "name": "Grappling Hook v0.1.0",
+      "body": "# Grappling Hook v0.1.0\n\n## What's New\n\n### Achievement Protection\n- **Achievements Disabled**: Disabled achievements and achievement stats for as long as the mod is loaded, through `AchievementsCore.SetBlockingState`, the same switch the game uses for Crowd Control runs.\n\n### Grappling Hook & Swing Physics\n- **Center-Screen Hook**: Added a hook that fires at whatever is under the middle of the screen while `Q` / `RT` is held, up to `MaxRange` (60 m) from you, with an aiming mark that lights up when a target is in range.\n- **Pendulum Rope**: Introduced a rope on your own `Rigidbody` that removes only the speed away from the anchor, so a fall turns into a swing and letting go keeps your momentum.\n- **Swing Pumping**: Added camera-relative pumping from the movement keys or left stick, applied only across the rope so it pushes the swing without stretching it.\n- **Reel and Rope Length**: Added reeling in with `F` / `LT` at `ReelSpeed`, and shortening or lengthening the rope with the mouse wheel or the D-pad.\n- **Moving Anchors**: Added anchors that travel with the object they hit, with the rope working on your speed relative to it.\n- **Air Jump on Release**: Added a jump reset when you let go of the rope in the air, spent on your next jump through the game's own `PlayerMovementJump.TryActivateExternalJump`.\n- **Level Attachments Respected**: Prevented the hook from firing or holding while a level hook, zipline, swing bar, suck pipe or cannon has you, in menus, while broken and across teleports.\n\n### Multiplayer Rope Visuals\n- **Synced Game Rope**: Integrated the game's own `SyncVisualsHook.SetHookedClient`, so the whole lobby sees your rope and hears its sound, with or without the mod.\n\n### Binds & Controller Support\n- **Bind Menu**: Added an in-game bind menu (`F8` / `R3`) with a keyboard-and-mouse column and a controller column, driven by the arrows or the D-pad.\n- **Any Input**: Added binds for any key, any mouse button (back and forward included), either wheel direction and any controller button, triggers and stick clicks included.\n- **Controller Defaults**: Added controller binds for every action: `RT` hook, `LT` reel, D-pad up / down rope length, `R3` menu.\n\n### Architecture & Core Refactor\n- No Harmony patches: everything reads game state or calls the game's own methods from an injected MonoBehaviour.\n- The config file `GrapplingHook.cfg` lives next to the dll; binds are stored as `Key:Q`, `Mouse:Right`, `Mouse:WheelUp`, `Pad:RightTrigger` or `None`.\n\n### Known Issues\n- The default controller binds were not checked against the game's own controller binds. If one clashes, rebind it in the `F8` menu.\n\n## Installation\n1. Install BepInEx 6 (IL2CPP) and launch the game once.\n2. Copy the `GrapplingHook` folder from the zip into `BepInEx/plugins/`.\n3. Hold `Q` (or `RT`) while aiming at a surface to hook; `F8` (or `R3`) opens the bind menu.\n",
+      "published_at": "2026-11-08T20:22:34Z",
+      "html_url": "https://github.com/d1ll3x3/FIH_GrapplingHook/releases/tag/v0.1.0",
+      "assets": [
+        {
+          "name": "GrapplingHook-v0.1.0.zip",
+          "browser_download_url": "https://github.com/d1ll3x3/FIH_GrapplingHook/releases/download/v0.1.0/GrapplingHook-v0.1.0.zip",
+          "size": 19255,
+          "download_count": 18
+        }
+      ]
+    },
+    "GamingGamer115/FIH-Text-Chat": {
+      "tag_name": "v1.4.0",
+      "name": "v1.4.0 - Emotes and Bug Fixes",
+      "body": "### Added\r\n- Emotes in stream chat — images and animated GIFs, cached on disk; falls back to text if an emote can't load\r\n### Fixed\r\n- \"Show icons\" toggle: icons off now shows only the text badge; icons on only the icon\r\n- YouTube chat timeout no longer hangs\r\n- Mute list saves reliably\r\n- Open-chat key works when set to a digit",
+      "published_at": "2026-11-15T21:22:47Z",
+      "html_url": "https://github.com/GamingGamer115/FIH-Text-Chat/releases/tag/v1.4.0",
+      "assets": [
+        {
+          "name": "TextChat.dll",
+          "browser_download_url": "https://github.com/GamingGamer115/FIH-Text-Chat/releases/download/v1.4.0/TextChat.dll",
+          "size": 353280,
+          "download_count": 17
+        }
+      ]
+    },
+    "GamingGamer115/FIH-Korean-Translator": {
+      "tag_name": "v1.2.1",
+      "name": "v1.2.1 - Performance | 성능",
+      "body": "## Performance Improvements\r\n- Text detection: Text boxes are checked once and remembered to avoid repeating work.\r\n- Scanning: Scanning is limited each frame to reduce lag. Regular scans run every 1.5 seconds, with extra scans when menus open.\r\n- Korean letters: The 941 Korean letters are loaded gradually after startup to avoid performance spikes.\r\n- File saving: Untranslated text logs are saved in the background.\r\n- Quick scans: New menus are scanned shortly after opening so text gets translated faster.\r\n- Performance log: A performance report is added to the BepInEx log every minute.\r\n## Trade-offs\r\n- Text boxes won't be re-checked if moved to a different parent until the next scene change.\r\n- Some menu text may take up to 1.5 seconds to translate.\r\n- Korean letter preparation uses an extra 10–15 MB of video memory. You can disable it with PrepareKoreanLetters = false.\r\n\r\n## 성능 개선\r\n- **텍스트 감지:** 텍스트 상자를 한 번만 확인하고 결과를 저장하여 불필요한 반복 작업을 방지합니다.\r\n- **스캔:** 렉을 줄이기 위해 프레임마다 스캔 작업량을 제한합니다. 일반 스캔은 1.5초마다 실행되며, 메뉴가 열리면 추가 스캔을 진행합니다.\r\n- **한글 글자:** 총 941개의 한글 글자를 게임 시작 후 조금씩 불러와 성능 저하를 방지합니다.\r\n- **파일 저장:** 번역되지 않은 텍스트 로그를 백그라운드에서 저장합니다.\r\n- **빠른 스캔:** 새 메뉴가 열리면 잠시 후 추가 스캔을 실행하여 텍스트가 더 빠르게 번역되도록 합니다.\r\n- **성능 로그:** 매분 BepInEx 로그에 성능 보고서를 기록합니다.\r\n## 단점 및 변경 사항\r\n- 텍스트 상자가 다른 부모 오브젝트로 이동하면 다음 씬 전환 전까지 다시 확인하지 않습니다.\r\n- 일부 메뉴 텍스트는 번역되는 데 최대 1.5초가 걸릴 수 있습니다.\r\n- 한글 글자 사전 준비 기능은 추가로 10~15MB의 비디오 메모리를 사용합니다. 필요하지 않다면 `PrepareKoreanLetters = false`로 설정하여 비활성화할 수 있습니다.",
+      "published_at": "2026-11-01T17:03:17Z",
+      "html_url": "https://github.com/GamingGamer115/FIH-Korean-Translator/releases/tag/v1.2.1",
+      "assets": [
+        {
+          "name": "KoreanTranslator.dll",
+          "browser_download_url": "https://github.com/GamingGamer115/FIH-Korean-Translator/releases/download/v1.2.1/KoreanTranslator.dll",
+          "size": 389120,
+          "download_count": 2
+        }
+      ]
+    },
+    "d1ll3x3/FlippingIsTag": {
+      "tag_name": "v1.1.0",
+      "name": "Flipping is Tag v1.1.0",
+      "body": "# Flipping is Tag v1.1.0\n\n## What's New\n\n### Taunts & Whistle\n- **Taunt Whistle**: Replaced the automatic reveal pings with a whistle that hiders play with `T`, heard in 3D from where they hide, or from their disguise in Prop Hunt.\n- **Auto Taunt**: Added a whistle that plays by itself when a hider has not taunted for `TauntInterval` seconds (60 by default, 0 turns it off), with a countdown under the role banner.\n- **Taunt Guard**: Prevented seekers from faking a whistle by having every machine check the sender is a hider in the host's published state.\n- **Taunt Channel**: Introduced a relay message that reaches every machine, the host's own taunts included.\n\n### Spectator Camera\n- **Watch the Seekers**: Added `V` for hiders, props and players who are out to follow a seeker with the camera, through the game's own `CameraManager.SetTrackingObject`, while their body stays where it hid.\n- **Seeker Switching**: Added the left and right arrows to switch between seekers, and a panel that names the one being watched.\n- **Camera Return**: Added the camera's return to the player when they press `V` again, get found or the round ends.\n\n### Tagging & Settings\n- **Ping Distance**: Lowered the default ping tag range from 25 m to 15 m, under a new `PingDistance` key so existing config files pick up the new default.\n\n### Test Mode\n- **Test Mode Toggle**: Added a Test mode option on the menu's OPTIONS page that shows or hides the TEST page; turning it off removes every dummy.\n- **Whistling Dummies**: Added dummies that whistle every 8 to 20 seconds while hiding and can be watched with `V` while they seek.\n\n### Performance\n- **Player Lookup**: Optimized player lookups to one pass per frame, with the FishNet owner id read through a delegate instead of reflection.\n- **HUD Drawing**: Prevented the HUD and menu from drawing on every IMGUI event; they now draw on repaint only.\n- **Spectator Camera Cost**: Optimized the spectator camera to tell the game about a new target only when it changes and to check its seekers twice a second.\n- **Prop Detection**: Replaced the native `Bounds.IntersectRay` calls in the prop picker with a managed ray test, and halved how often the preview updates.\n- **Name Tags**: Disabled the scene search for name tags outside a round.\n- **Hitbox Outline**: Reduced the draw calls of the hitbox outline and disabled it while spectating.\n\n### Architecture & Core Refactor\n- The whistle ships inside the dll as a 16-bit WAV embedded resource and is turned into an `AudioClip` at runtime; game sounds use FMOD, but Unity audio stays on for voice chat.\n- `RevealInterval` became `TauntInterval` in the match record; the wire format is unchanged.\n\n### Known Issues\n- Shares `LookDirectionSyncVar` with Chaos Is Hard and Chained Is Hard; running them together makes all of them sync badly.\n- Dummies exist only on the host's machine; other players do not see or hear them.\n\n## Installation\n1. Install BepInEx 6 (IL2CPP) and launch the game once.\n2. Copy the `FlippingIsTag` folder from the zip into `BepInEx/plugins/`. Everyone in the lobby needs v1.1.0.\n3. Press `F7` in game to open the menu, pick a mode and start a round with `F8` (host).\n",
+      "published_at": "2026-11-18T15:40:16Z",
+      "html_url": "https://github.com/d1ll3x3/FlippingIsTag/releases/tag/v1.1.0",
+      "assets": [
+        {
+          "name": "FlippingIsTag-v1.1.0.zip",
+          "browser_download_url": "https://github.com/d1ll3x3/FlippingIsTag/releases/download/v1.1.0/FlippingIsTag-v1.1.0.zip",
+          "size": 147993,
+          "download_count": 0
+        }
+      ]
+    },
+    "d1ll3x3/FIH_MapEditor": {
+      "tag_name": "v0.15.3",
+      "name": "FIH Custom Map Editor v0.15.3",
+      "body": "# FIH Custom Map Editor v0.15.3\n\n## What's New\n\n### Level Edits\n- **Removed Geometry Coming Back**: Fixed hidden or moved level pieces being dropped from the map when their object was not found at load; the next save or autosave then wiped the edit for good, so removed floors reappeared.\n- **Pending Level Edits**: Introduced a pending list for level edits whose object is not loaded yet; they stay in every save and are retried every 3 seconds in the editor, in Play and with the editor closed.\n- **Respawned Objects**: Fixed edits being lost when the game destroys and recreates an edited level object; the recreated object gets the edit again.\n- **All Loaded Scenes**: Extended level edit lookups from the active scene to every loaded scene.\n\n### Co-edit\n- **No Phantom Reverts**: Prevented a level edit that could not be found locally from being broadcast to the other editors as a revert.\n\n### Architecture & Core Refactor\n- `LevelEditManager` keeps unresolved `LevelEditData` in a pending list that `Snapshot` includes, mirroring the placed objects' pending list.\n- `LevelEditManager.RetryPending` also moves records whose target was destroyed back to pending.\n- `ObjectCatalog.ResolvePath` searches the active scene first, then every other loaded scene.\n\n## Installation\n1. Install BepInEx 6 (IL2CPP) and launch the game once.\n2. Extract the zip into BepInEx/plugins/FIHMapEditor/ (or copy FIHMapEditor.dll there).\n3. Press F6 inside any level to open the Map Editor or F7 for the Maps Hub.\n",
+      "published_at": "2026-11-12T00:29:08Z",
+      "html_url": "https://github.com/d1ll3x3/FIH_MapEditor/releases/tag/v0.15.3",
+      "assets": [
+        {
+          "name": "FIHMapEditor.dll",
+          "browser_download_url": "https://github.com/d1ll3x3/FIH_MapEditor/releases/download/v0.15.3/FIHMapEditor.dll",
+          "size": 434176,
+          "download_count": 3
+        },
+        {
+          "name": "FIHMapEditor_v0.15.3.zip",
+          "browser_download_url": "https://github.com/d1ll3x3/FIH_MapEditor/releases/download/v0.15.3/FIHMapEditor_v0.15.3.zip",
+          "size": 975568,
+          "download_count": 18
+        }
+      ]
+    },
+    "fabuleo8796/WorldNamer": {
+      "tag_name": "v1.0.0",
+      "name": "Fabuleo's World Namer v1.0.0",
+      "body": "Give your worlds real names ✏️\n\n**Install:** you need BepInEx 6 bleeding edge (IL2CPP) in your Flipping is Hard folder. Then unzip `FabuleosWorldNamer-v1.0.0.zip` into the game folder (`FabuleosWorldNamer.dll` goes to `BepInEx/plugins/`), or drop the loose DLL there.\n\n**Use:** in the world list, click the ✏️ pencil next to a world (or select it and press **R**), type a name, **Enter** to save, **Esc** to cancel.\n\nNames are kept by the mod in `BepInEx/config/FabuleosWorldNamer.json`; the game's own saves are never changed.",
+      "published_at": "2026-11-06T20:37:39Z",
+      "html_url": "https://github.com/fabuleo8796/WorldNamer/releases/tag/v1.0.0",
+      "assets": [
+        {
+          "name": "FabuleosWorldNamer-v1.0.0.zip",
+          "browser_download_url": "https://github.com/fabuleo8796/WorldNamer/releases/download/v1.0.0/FabuleosWorldNamer-v1.0.0.zip",
+          "size": 17249,
+          "download_count": 3
+        },
+        {
+          "name": "FabuleosWorldNamer.dll",
+          "browser_download_url": "https://github.com/fabuleo8796/WorldNamer/releases/download/v1.0.0/FabuleosWorldNamer.dll",
+          "size": 284672,
+          "download_count": 0
+        }
+      ]
+    },
+    "PlixtzlBit/FlippingSpeedrunTools": {
+      "tag_name": "1.0.2",
+      "name": "Flipping Speedrun Tools v1.0.2",
+      "body": "More Anti Cheat fixes, Crash fix, Keybinds list, Modslist Detection fix, Performance Fix",
+      "published_at": "2026-04-06T01:38:32Z",
+      "html_url": "https://github.com/PlixtzlBit/FlippingSpeedrunTools/releases/tag/1.0.2",
+      "assets": [
+        {
+          "name": "FlippingSpeedrunTools.dll",
+          "browser_download_url": "https://github.com/PlixtzlBit/FlippingSpeedrunTools/releases/download/1.0.2/FlippingSpeedrunTools.dll",
+          "size": 15872,
+          "download_count": 24
+        }
+      ]
+    },
+    "d1ll3x3/FIH_ModManager": {
+      "tag_name": "v1.0.7",
+      "name": "FIH Mod Manager v1.0.7",
+      "body": "# FIH Mod Manager v1.0.7\n\n## What's New\n\n### Speedrun\n- **Speedrun Mods**: The Speedrun tab now opens on a new list of tools made for speedrunning: TAS Tool, Sum of Best and Official Speedrun Mod. Each one says whether you can use it in a recorded run, like \"Allowed in runs\" or \"Only for level and challenge runs\".\n- **Allowed in Runs**: The list of every mod allowed in runs submitted to speedrun.com is now the second tab.\n- **Official Speedrun Mod**: Practice levels from a Speedrun app in the game's phone, with teleports, a restart key, a timer for each level and your best times. It's in the catalog, so it shows up in Explore too.\n\n## Installation\n- **Windows**: download `FIHModManager.exe` and run it.\n- **Linux**: download `FIHModManager-linux-x64`, make it executable (`chmod +x FIHModManager-linux-x64`) and run it.\n- If you already have an earlier version, the app offers this update on its own at startup.\n",
+      "published_at": "2026-11-15T19:32:05Z",
+      "html_url": "https://github.com/d1ll3x3/FIH_ModManager/releases/tag/v1.0.7",
+      "assets": [
+        {
+          "name": "FIHModManager-linux-x64",
+          "browser_download_url": "https://github.com/d1ll3x3/FIH_ModManager/releases/download/v1.0.7/FIHModManager-linux-x64",
+          "size": 83559165,
+          "download_count": 1
+        },
+        {
+          "name": "FIHModManager.exe",
+          "browser_download_url": "https://github.com/d1ll3x3/FIH_ModManager/releases/download/v1.0.7/FIHModManager.exe",
+          "size": 96844232,
+          "download_count": 43
+        }
+      ]
+    }
+  }
+}
