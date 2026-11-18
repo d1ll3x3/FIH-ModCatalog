@@ -397,6 +397,23 @@
       }
     },
     {
+      "repo": "d1ll3x3/FlippingIsTag",
+      "title": "Flipping is Tag",
+      "author": "Topper",
+      "category": "multiplayer",
+      "icon": "tag",
+      "description": {
+        "en": "Tag games for the whole lobby: classic, infection, freeze, team tag, hide and seek and prop hunt, tagging by touch or by ping (F7 opens the menu).",
+        "es": "Juegos de pilla pilla para todo el lobby: clásico, infección, congelados, por equipos, escondite y prop hunt, pillando al tocar o con el ping (F7 abre el menú).",
+        "fr": "Jeux de chat pour tout le lobby : classique, infection, chat glacé, par équipes, cache-cache et prop hunt, en touchant ou avec le ping (F7 ouvre le menu).",
+        "ru": "Салки для всего лобби: классика, заражение, «замри», командные, прятки и prop hunt — салить можно касанием или пингом (F7 — меню).",
+        "pl": "Berek dla całego lobby: klasyczny, infekcja, mrożony, drużynowy, chowany i prop hunt, łapanie dotykiem lub pingiem (F7 otwiera menu).",
+        "ar": "ألعاب المطاردة لكل اللوبي: الكلاسيكية والعدوى والتجميد والفرق والغميضة وprop hunt، والإمساك باللمس أو بالإشارة (F7 يفتح القائمة).",
+        "zh": "全大厅的捉人游戏：经典、感染、冰冻、团队、捉迷藏和道具躲猫猫，可触碰或用标记抓人（F7 打开菜单）。",
+        "ko": "로비 전체를 위한 술래잡기: 클래식, 감염, 얼음땡, 팀전, 숨바꼭질, 프롭 헌트. 터치나 핑으로 잡기 (F7로 메뉴 열기)."
+      }
+    },
+    {
       "repo": "d1ll3x3/FIH_MapEditor",
       "title": "Map Editor",
       "author": "Topper",
