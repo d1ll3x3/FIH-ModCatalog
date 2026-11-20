@@ -146,7 +146,7 @@
           "name": "FlippingIsHardTAS.dll",
           "browser_download_url": "https://github.com/d1ll3x3/FlippingIsHard_TAS_Tool/releases/download/v2.1.0/FlippingIsHardTAS.dll",
           "size": 98304,
-          "download_count": 10
+          "download_count": 11
         }
       ]
     },
@@ -272,7 +272,7 @@
           "name": "GrapplingHook-v0.1.0.zip",
           "browser_download_url": "https://github.com/d1ll3x3/FIH_GrapplingHook/releases/download/v0.1.0/GrapplingHook-v0.1.0.zip",
           "size": 19255,
-          "download_count": 20
+          "download_count": 21
         }
       ]
     },
@@ -395,7 +395,7 @@
           "name": "FIHModManager.exe",
           "browser_download_url": "https://github.com/d1ll3x3/FIH_ModManager/releases/download/v1.0.8/FIHModManager.exe",
           "size": 96848328,
-          "download_count": 30
+          "download_count": 31
         }
       ]
     }
