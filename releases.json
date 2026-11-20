@@ -161,7 +161,7 @@
           "name": "FlippingIsHardTrainer.dll",
           "browser_download_url": "https://github.com/d1ll3x3/FlippingIsHard-Trainer-BepInEx/releases/download/v1.9.0/FlippingIsHardTrainer.dll",
           "size": 116736,
-          "download_count": 95
+          "download_count": 96
         }
       ]
     },
@@ -197,7 +197,7 @@
           "name": "SumOfBestMod.dll",
           "browser_download_url": "https://github.com/PgoTracker/SOB-mod/releases/download/1.0.0/SumOfBestMod.dll",
           "size": 13824,
-          "download_count": 25
+          "download_count": 26
         }
       ]
     },
@@ -212,7 +212,7 @@
           "name": "OfficialSpeedrunMod.dll",
           "browser_download_url": "https://github.com/d1ll3x3/FIH_OfficialSpeedrunMod/releases/download/v1.2.0/OfficialSpeedrunMod.dll",
           "size": 81408,
-          "download_count": 20
+          "download_count": 21
         }
       ]
     },
@@ -395,7 +395,7 @@
           "name": "FIHModManager.exe",
           "browser_download_url": "https://github.com/d1ll3x3/FIH_ModManager/releases/download/v1.0.8/FIHModManager.exe",
           "size": 96848328,
-          "download_count": 27
+          "download_count": 30
         }
       ]
     }
