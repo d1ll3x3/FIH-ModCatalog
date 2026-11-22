@@ -448,6 +448,23 @@
       }
     },
     {
+      "repo": "fabuleo8796/FIHSoccer",
+      "title": "FIH Soccer",
+      "author": "Fabuleo",
+      "category": "multiplayer",
+      "icon": "bolt",
+      "description": {
+        "en": "Soccer as Flippy: flip into the ball, red vs blue Muddy CPUs, online lobbies with friends, team kits and match stats (B opens the soccer menu).",
+        "es": "Fútbol con Flippy: voltéate contra la pelota, CPUs Muddy rojo contra azul, salas online con amigos, uniformes de equipo y estadísticas (B abre el menú de fútbol).",
+        "fr": "Du foot avec Flippy : retourne-toi dans le ballon, des Muddy rouges contre bleus, des salons en ligne entre amis, des maillots d'équipe et des stats (B ouvre le menu foot).",
+        "ru": "Футбол за Флиппи: бей по мячу переворотами, красные и синие боты-Мадди, онлайн-лобби с друзьями, командная форма и статистика матча (B открывает меню футбола).",
+        "pl": "Piłka nożna jako Flippy: uderzaj piłkę saltem, czerwone i niebieskie boty Muddy, lobby online ze znajomymi, stroje drużyn i statystyki meczu (B otwiera menu piłki).",
+        "ar": "كرة القدم بدور فليبي: اقلب نفسك لتضرب الكرة، روبوتات مادي حمراء ضد زرقاء، غرف لعب مع الأصدقاء عبر الإنترنت، أطقم الفرق وإحصائيات المباراة (B يفتح قائمة كرة القدم).",
+        "zh": "扮演 Flippy 踢足球：翻身撞球射门，红蓝 Muddy 电脑球员，和好友在线组队大厅，球队球衣和比赛数据（按 B 打开足球菜单）。",
+        "ko": "Flippy로 축구: 몸을 뒤집어 공을 차고, 빨강 대 파랑 Muddy CPU, 친구와 온라인 로비, 팀 유니폼과 경기 통계 (B로 축구 메뉴 열기)."
+      }
+    },
+    {
       "repo": "PlixtzlBit/FlippingSpeedrunTools",
       "title": "Speedrun Tools",
       "author": "PlixtzlBit",
