@@ -151,17 +151,17 @@
       ]
     },
     "d1ll3x3/FlippingIsHard-Trainer-BepInEx": {
-      "tag_name": "v1.10.0",
-      "name": "v1.10.0 - Disable key (F1)",
-      "body": "# Flipping is Hard Trainer v1.10.0\n\n## What's New\n\n### Turn the Mod Off\n- **One Key to Disable Everything**: Added a bind, `F1` by default, that turns the whole trainer off and back on.\n- **Back to the Base Game**: While off, the HUD is hidden and no other trainer bind works. The menu closes without saving, fly mode, ghost mode and any ghost being played stop, a hand-made ghost recording is saved, the solo help beam can't be summoned and the game's own fly cheat is restored.\n- **Remappable**: Change it in the Bind Menu under \"Enable / disable mod\", with keyboard or gamepad. It has no gamepad button by default, and existing configs get `F1` without losing their binds.\n- **Achievements Stay Blocked**: Disabling the mod does not lift the achievement block, since it can be turned back on at any moment.\n\n### Architecture & Core Refactor\n- `TrainerController.ModEnabled` gates the update loop, the HUD and the help beam patch. It is not saved, so the trainer starts enabled in every game session.\n- New `GhostMode.Disable()` stops ghost mode and playback and hides the start and end markers.\n\n## Installation\n1. Install BepInEx 6 (IL2CPP) and launch the game once.\n2. Copy FlippingIsHardTrainer.dll into BepInEx/plugins/FlippingIsHardTrainer/ (replace the old one).\n3. Press `B` (or `L1+R1` / `LB+RB` on a gamepad) in game to open the Bind Menu.\n",
-      "published_at": "2026-11-27T00:15:41Z",
-      "html_url": "https://github.com/d1ll3x3/FlippingIsHard-Trainer-BepInEx/releases/tag/v1.10.0",
+      "tag_name": "v1.11.0",
+      "name": "v1.11.0 - Lobby usage flag",
+      "body": "# Flipping is Hard Trainer v1.11.0\n\n## What's New\n\n### Trainer Use Shown to the Steam Lobby\n- **Lobby Flag**: Saving a position, teleporting, turning fly mode on or restarting a ghost attempt while in a Steam lobby sets `fih_trainer_used_v1` to `1` in your lobby member data, which other lobby members' games can read. The help beam, auto-repair on its own and ghost playback don't set it.\n- Contributed by @PgoTracker in #2.\n\n### Gameplay Transitions\n- **Clean Level Changes**: The trainer now pauses when gameplay goes away (the player or the active scene changes) and resumes when it is back. On the way out it closes the menu, turns off fly mode and ghost mode, saves a hand-made ghost recording and restores the game's own fly cheat.\n- **Nothing Lost**: The saved position and the keep velocity, keep angle and auto-repair toggles last for the whole game session.\n- **Safer Fly Mode**: Fly mode only turns on when the player is ready.\n\n### Architecture & Core Refactor\n- New `TrainerLobbyUsage.cs` publishes the lobby flag.\n- `TrainerController` is created once; `Suspend()` replaces `Shutdown()` and drops any teleport or ghost action still pending from the menu.\n- The build now references `com.rlabrecque.steamworks.net` (copy it from `BepInEx/interop` into `lib`), and `-p:InteropDirectory=...` builds against another folder.\n\n## Installation\n1. Install BepInEx 6 (IL2CPP) and launch the game once.\n2. Copy FlippingIsHardTrainer.dll into BepInEx/plugins/FlippingIsHardTrainer/ (replace the old one).\n3. Press `B` (or `L1+R1` / `LB+RB` on a gamepad) in game to open the Bind Menu.\n",
+      "published_at": "2026-11-27T14:48:06Z",
+      "html_url": "https://github.com/d1ll3x3/FlippingIsHard-Trainer-BepInEx/releases/tag/v1.11.0",
       "assets": [
         {
           "name": "FlippingIsHardTrainer.dll",
-          "browser_download_url": "https://github.com/d1ll3x3/FlippingIsHard-Trainer-BepInEx/releases/download/v1.10.0/FlippingIsHardTrainer.dll",
-          "size": 117760,
-          "download_count": 3
+          "browser_download_url": "https://github.com/d1ll3x3/FlippingIsHard-Trainer-BepInEx/releases/download/v1.11.0/FlippingIsHardTrainer.dll",
+          "size": 119296,
+          "download_count": 0
         }
       ]
     },
@@ -188,16 +188,16 @@
     },
     "PgoTracker/SOB-mod": {
       "tag_name": "1.0.0",
-      "name": "SOB 1.0.0",
-      "body": "**Full Changelog**: https://github.com/PgoTracker/SOB-mod/commits/1.0.0",
-      "published_at": "2026-11-09T22:54:33Z",
+      "name": "SOB 1.0.1",
+      "body": "",
+      "published_at": "2026-11-27T14:04:21Z",
       "html_url": "https://github.com/PgoTracker/SOB-mod/releases/tag/1.0.0",
       "assets": [
         {
           "name": "SumOfBestMod.dll",
           "browser_download_url": "https://github.com/PgoTracker/SOB-mod/releases/download/1.0.0/SumOfBestMod.dll",
-          "size": 13824,
-          "download_count": 29
+          "size": 13312,
+          "download_count": 1
         }
       ]
     },
@@ -212,7 +212,7 @@
           "name": "OfficialSpeedrunMod.dll",
           "browser_download_url": "https://github.com/d1ll3x3/FIH_OfficialSpeedrunMod/releases/download/v1.2.0/OfficialSpeedrunMod.dll",
           "size": 81408,
-          "download_count": 26
+          "download_count": 27
         }
       ]
     },
