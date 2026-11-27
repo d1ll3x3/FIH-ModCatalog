@@ -151,17 +151,17 @@
       ]
     },
     "d1ll3x3/FlippingIsHard-Trainer-BepInEx": {
-      "tag_name": "v1.9.0",
-      "name": "v1.9.0 - Achievement block",
-      "body": "# Flipping is Hard Trainer v1.9.0\n\n## What's New\n\n### Achievement Blocking\n- **No Achievements While Loaded**: Disabled every achievement and achievement stat while the trainer is loaded, since fly, teleports and the rest are advantages.\n- **Native Game Block**: Integrated the game's own achievement block, the one Crowd Control runs use (`useStreamerEffects`), with no achievement allowed through its allowlist.\n- **Block Kept Across Loads**: Prevented loading, restarting or joining a world from lifting the block, which `AchievementsManager.ApplyBlockingState` recomputes from the save each time.\n\n### Architecture & Core Refactor\n- New `AchievementBlocker.cs` checks the block every frame from game start, before the player is found, and calls `AchievementsCore.SetBlockingState(true, null, null)` when it is missing; no game method is Harmony-patched. It logs `Achievements blocked: they can't be earned while the trainer is loaded.` once.\n- The block lasts only while the trainer is loaded: the save is not marked, so removing the trainer lets achievements unlock again.\n- The build now references `Il2CppSystem.Core` (copy it from `BepInEx/interop` into `lib`).\n\n## Installation\n1. Install BepInEx 6 (IL2CPP) and launch the game once.\n2. Copy FlippingIsHardTrainer.dll into BepInEx/plugins/FlippingIsHardTrainer/ (replace the old one).\n3. Press `B` (or `L1+R1` / `LB+RB` on a gamepad) in game to open the Bind Menu.\n",
-      "published_at": "2026-10-28T23:08:14Z",
-      "html_url": "https://github.com/d1ll3x3/FlippingIsHard-Trainer-BepInEx/releases/tag/v1.9.0",
+      "tag_name": "v1.10.0",
+      "name": "v1.10.0 - Disable key (F1)",
+      "body": "# Flipping is Hard Trainer v1.10.0\n\n## What's New\n\n### Turn the Mod Off\n- **One Key to Disable Everything**: Added a bind, `F1` by default, that turns the whole trainer off and back on.\n- **Back to the Base Game**: While off, the HUD is hidden and no other trainer bind works. The menu closes without saving, fly mode, ghost mode and any ghost being played stop, a hand-made ghost recording is saved, the solo help beam can't be summoned and the game's own fly cheat is restored.\n- **Remappable**: Change it in the Bind Menu under \"Enable / disable mod\", with keyboard or gamepad. It has no gamepad button by default, and existing configs get `F1` without losing their binds.\n- **Achievements Stay Blocked**: Disabling the mod does not lift the achievement block, since it can be turned back on at any moment.\n\n### Architecture & Core Refactor\n- `TrainerController.ModEnabled` gates the update loop, the HUD and the help beam patch. It is not saved, so the trainer starts enabled in every game session.\n- New `GhostMode.Disable()` stops ghost mode and playback and hides the start and end markers.\n\n## Installation\n1. Install BepInEx 6 (IL2CPP) and launch the game once.\n2. Copy FlippingIsHardTrainer.dll into BepInEx/plugins/FlippingIsHardTrainer/ (replace the old one).\n3. Press `B` (or `L1+R1` / `LB+RB` on a gamepad) in game to open the Bind Menu.\n",
+      "published_at": "2026-11-27T00:15:41Z",
+      "html_url": "https://github.com/d1ll3x3/FlippingIsHard-Trainer-BepInEx/releases/tag/v1.10.0",
       "assets": [
         {
           "name": "FlippingIsHardTrainer.dll",
-          "browser_download_url": "https://github.com/d1ll3x3/FlippingIsHard-Trainer-BepInEx/releases/download/v1.9.0/FlippingIsHardTrainer.dll",
-          "size": 116736,
-          "download_count": 102
+          "browser_download_url": "https://github.com/d1ll3x3/FlippingIsHard-Trainer-BepInEx/releases/download/v1.10.0/FlippingIsHardTrainer.dll",
+          "size": 117760,
+          "download_count": 1
         }
       ]
     },
